@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>High Score</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 100px;
-            background: #f9f9f9;
-        }
-        .score {
-            font-size: 3em;
-            color: #2d8cf0;
-            font-weight: bold;
-        }
-        .label {
-            font-size: 1.5em;
-            color: #333;
-            margin-bottom: 20px;
-            display: block;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>High Score | Jayjay Adventures</title>
+  <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
-    <span class="label">High Score</span>
-    <div class="score">212</div>
+  <header class="hero-header" style="background-image: url('/photos/jayjay-header.jpg')">
+    
+  </header>
+
+<h1>Jayjay's High Score</h1>
+
+  <nav class="dropdown-nav">
+  <div class="nav-right">
+    <a class="home-link" href="/">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Menu ▼</button>
+      <div class="dropdown-content">
+        <a href="/about">About</a>
+        <a href="/sports">Sports</a>
+        <a href="/balls/tournament-arsenal">Arsenal</a>
+        <a href="/high-score">High Scores</a>
+        <a href="/socials">Socials</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <main>
+    <section class="score-section">
+      <h2>Jayjay's Highest Score</h2>
+      <p class="big-score">212 🎳</p>
+    </section>
+  </main>
 </body>
 </html>
