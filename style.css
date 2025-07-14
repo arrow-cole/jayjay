@@ -8,14 +8,16 @@ body {
 
 .hero-header {
   background-image: url('photos/jayjay-header.jpg'); /* Replace with actual photo */
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 1000px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
+  
 }
 
 .overlay {
